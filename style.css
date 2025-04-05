@@ -1,0 +1,116 @@
+body {
+    background: url("https://wallpapers.com/images/hd/bts-black-white-desktop-wallpaper-zz63g871nd3o1ktf.jpg")
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Gabarito", sans-serif;
+    margin: 20px;
+  }
+  
+  .logo {
+    text-align: end;
+  }
+  
+  .logo img {
+    width: 6.5%;
+  }
+  
+  /* Caixa principal do jogo */
+  .conteudo-jogo {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 5px #ff50e2;
+    margin: 30px;
+    padding: 20px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .conteudo-jogo:hover {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 5px #7d0af8;
+  }
+  
+  h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.9em;
+    color: purple;
+    -webkit-text-stroke: 1.5px white;
+    font-family: Times New Roman;
+    font-style: italic;
+  }
+  
+  /* Estrutura do questionário */
+  .questionario {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 70%;
+    max-width: 70%;
+  }
+  
+  /* Área de conteúdo */
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    gap: 20px;
+  }
+  
+  /* Estilo da pergunta */
+  .pergunta {
+    font-weight: 600;
+    color: white;
+  }
+  
+  /* Progresso da pergunta */
+  .progresso {
+    text-align: end;
+    font-size: small;
+    font-weight: 500;
+    color: white;
+  }
+  
+  /* Área das respostas */
+  .respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Botões de resposta */
+  .botao-resposta {
+    width: 100%;
+    height: 2.5rem;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background: #7d0af8;
+    color: white;
+    border-radius: 0.6rem;
+    text-align: center;
+  }
+  
+  .botao-resposta:hover {
+    background: #19caca;
+    font-weight: 600;
+  }
+  
+  /* Tela de fim do jogo */
+  .fim {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .fim span {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(215, 153, 241);
+    font-weight: bold;
+  }
