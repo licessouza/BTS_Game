@@ -40,7 +40,3 @@ Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria ou 
 
 ## Codepen
 https://codepen.io/licessouza/pen/QwWorGK
-
-## Licença
-
-Este projeto é licenciado sob a licença \[Tipo de Licença].
