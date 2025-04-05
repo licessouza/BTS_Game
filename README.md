@@ -1,6 +1,6 @@
 # Quiz BTS
 
-Este projeto é um quiz interativo sobre o grupo de K-pop BTS, desenvolvido com HTML, CSS e JavaScript.
+Este projeto é um quiz interativo sobre o grupo de K-pop BTS, desenvolvido com HTML, CSS e JavaScript. Projeto realizado durante a 9º Imersão da ALURA.
 
 ## Funcionalidades
 
